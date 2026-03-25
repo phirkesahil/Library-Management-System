@@ -1,28 +1,37 @@
-# Library Database Management System (Java Swing + MySQL)
+# Library Management System
 
-This project is a **Library Management System** built using **Java Swing** for the user interface and **MySQL** as the database. It simplifies the management of library operations like adding, searching, and issuing books, providing a user-friendly interface and efficient database connectivity through **JDBC**.
+A desktop application built in Java to manage library operations
+including book records, member registrations, and issue/return tracking.
 
-## 🛠️ Features 
+## About This Project
+Built using Java Swing for the UI and MySQL as the backend database,
+this application handles all core library management workflows with
+proper validations and data integrity checks.
 
-- **Add Books**: Add new books to the library database with details like title, author, and book ID.
-- **Search Books**: Search for books by title, author, or book ID.
-- **Issue Books**: Issue books to users and track the issued status.
-- **Seamless Database Integration**: Automated data retrieval and manipulation with JDBC, eliminating manual database access.
-- **User-Friendly Interface**: Built with Java Swing to offer a simple and intuitive user experience.
+## Features
+- Add, update, search, and delete book records
+- Member registration with duplicate member check
+- Book issue and return with availability validation
+- Automatic overdue fine calculation based on return date
+- Search books by title, author, and category
 
-## 👩🏻‍💻 Technologies Used
+## What I Tested
+- All modules manually tested — book issue, return, member registration, and search
+- Verified correct behaviour and data integrity across all workflows
+- Tested edge cases including duplicate entries and invalid inputs
 
-- **Java (Swing)**: For building the graphical user interface (GUI).
-- **MySQL**: For storing and managing the library’s book data.
-- **JDBC (Java Database Connectivity)**: For connecting Java applications to MySQL and performing database operations.
+## Tools & Technologies
+- Java
+- Java Swing (UI)
+- MySQL (Database)
+- JDBC (Database Connectivity)
 
-## ⚙️ System Requirements
+## How to Run
+1. Clone the repository
+2. Import the SQL file into MySQL to set up the database
+3. Update database credentials in the config file
+4. Open in IntelliJ IDEA or Eclipse
+5. Run `Main.java` to launch the application
 
-- **Java**: Version 8 or higher
-- **MySQL**: Version 5.7 or higher
-- **IDE**: Any Java-compatible IDE like IntelliJ IDEA, Eclipse, or NetBeans
-
-## 🎥 Project Demonstration
-
-- Watch My Live Project Demo Here:
-https://youtu.be/GTZJREMYibA
+## Author
+Sahil Avinash Phirke
